@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script>
+      var shot = parseInt(prompt("Введите число от 1 до 180: "));
+      if (isNaN(shot)) {
+        alert("ай-ай-ай, Вы ввели не число!");
+      } else if ((shot >= 27 && shot <= 39) || (shot >= 98 && shot <= 111)) {
+        alert("Цель поражена!");
+      } else {
+        alert("Промах!");
+      }
+    </script>
+  </body>
+</html>
