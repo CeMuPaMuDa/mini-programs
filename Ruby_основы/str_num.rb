@@ -1,6 +1,3 @@
-puts 'stringa'
-
-puts 1
-
-puts 2
-
+puts "stringa"
+puts "1" + " 2"
+puts 2 + 1
